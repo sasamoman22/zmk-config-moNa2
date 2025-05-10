@@ -80,7 +80,7 @@
 &trans  &kp LEFT_ALT  &kp RCTRL  &kp LEFT_GUI  &kp SPACE  &kp ESCAPE    &kp TAB  &kp BACKSPACE                                                   &trans
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&scroll_up_down>; //
         };
 
         layer_4 {
