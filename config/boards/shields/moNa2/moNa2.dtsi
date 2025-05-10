@@ -39,8 +39,12 @@
     };
 
     right_encoder: encoder_right {
-        status = "okay";
-    };
+    compatible = "alps,ec11";
+    a-gpios = <&xiao_d 4 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  // ←配線に合わせて
+    b-gpios = <&xiao_d 7 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;  // ←配線に合わせて
+    steps = <24>;
+    status = "okay";
+};
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
