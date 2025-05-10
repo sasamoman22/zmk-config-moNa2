@@ -39,7 +39,7 @@
     };
 
     right_encoder: encoder_right {
-        status = "okey";
+        status = "okay";
     };
 
     sensors: sensors {
